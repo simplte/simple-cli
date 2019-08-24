@@ -1,0 +1,23 @@
+{
+  "name": "simple-cli",
+  "version": "1.0.0",
+  "description": "脚手架",
+  "main": "index.js",
+  "bin": {
+    "eos": "./bin/www"
+  },
+  "scripts": {
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplte/simple-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplte/simple-cli/issues"
+  },
+  "homepage": "https://github.com/simplte/simple-cli#readme"
+}
