@@ -1,10 +1,10 @@
 {
-  "name": "simple-cli",
+  "name": "bqc-cli",
   "version": "1.0.0",
   "description": "脚手架",
   "main": "index.js",
   "bin": {
-    "eos": "./bin/www"
+    "bqc": "./bin/www"
   },
   "scripts": {
     "compile": "babel src -d dist",
