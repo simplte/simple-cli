@@ -9,7 +9,6 @@
   "bin": {
     "bqc": "./bin/dcli"
   },
-  "repository": "https://github.com/imaoda/cli-tpl",
   "keywords": [
     "cli",
     "脚手架"
