@@ -1,23 +1,29 @@
 {
-  "name": "bqc-cli",
-  "version": "1.0.0",
-  "description": "脚手架",
+  "name": "bqc-tpl",
+  "version": "1.0.51",
+  "description": "通用脚手架",
   "main": "index.js",
-  "bin": {
-    "bqc": "./bin/www"
-  },
   "scripts": {
-    "compile": "babel src -d dist",
-    "watch": "npm run compile -- --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simplte/simple-cli.git"
+  "bin": {
+    "bqc": "./bin/dcli"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simplte/simple-cli/issues"
-  },
-  "homepage": "https://github.com/simplte/simple-cli#readme"
+  "repository": "https://github.com/imaoda/cli-tpl",
+  "keywords": [
+    "cli",
+    "脚手架"
+  ],
+  "author": "bqccopy",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "import-from": "^3.0.0",
+    "inquirer": "^6.5.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "osenv": "^0.1.5",
+    "resolve-from": "^5.0.0",
+    "yeoman-environment": "^2.4.0"
+  }
 }
